@@ -1,0 +1,39 @@
+Thermometer
+
+1. Terdapat sebuah suhu ubah menjadi celcius
+2. Berapa temperatur suhu tersebut ?
+3. Apakah suhu fahrenheit ?
+4. Jika ya, mengoperasikan = masukan temperatur dalam konversi (N-32) * (5/9) lalu ke no 12
+5. Jika tidak, lalu ke no 6
+6. Apakah suhu kelvin?
+7. Jika ya, mengoperasikan = masukan temperatur dalam konversi (N-273.15) lalu ke no 12
+8. Jika tidak, lalu ke no 9
+9. Apakah suhu celcius?
+10. Jika ya, temperatur sama karena celcius lalu ke no 12
+11. Jika tidak, tipe temperatur salah lalu ke no 12
+12. Selesai
+
+
+START 
+N = besar suhu (input 86) (input 45)
+s = tipe suhu
+f = fahrenheit (input)
+k = kelvin
+c = celcius (input, output)
+
+
+ Read Tipe temperatur (s): 
+ Read Berapa suhunya (N):
+
+If s = f 
+Cetak ( N - 32 ) * ( 5/9 ) 
+
+
+If s = k 
+Cetak ( N - 273.15 )
+
+
+If s = c 
+Cetak ( N )
+
+END
